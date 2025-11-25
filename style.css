@@ -44,7 +44,7 @@ nav {
 nav a {
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 1.0rem;
+  font-size: 1.3rem;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -81,7 +81,7 @@ body {
 
 .card-container {
   display: flex;
-  gap: 30px; /* Mais espaço entre os cards */
+  gap:60px; /* Mais espaço entre os cards */
   justify-content: center;
   flex-wrap: wrap;
   padding: 40px;
@@ -132,4 +132,9 @@ button{
   border-radius: 13px;
   transform: translateY(-10px);
   box-shadow: 0 0 10px #d1056b, 0 0 10px #d1056b, 0 0 10px #020141;
+}
+
+h1{
+  font-size: 2.6rem;
+  text-align: center;
 }
